@@ -16,7 +16,7 @@ fi
 if [ -d /data/data/com.groot.hostloader ]; then
 echo -e "\e[34m[Groot-Hostloader] \e[32m   FOUND!"
 else
-    echo -e "\e[34m[Groot-HOSTloader ] ~>\e[31m   Not Found,you are not using Groot latest host loader "
+    echo -e "\e[34m[Groot-HOSTloader ] ~>\e[31m   Not Found,you are not using groot latest host loader"
     echo -e "\e[39m"
 exit 0
 fi
