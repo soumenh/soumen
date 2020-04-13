@@ -80,8 +80,6 @@ PS3='
 Enter Your choice ~> '
 echo -e "\e[33m "
 options=("PUBG-GL"
-                  "PUBG-KR" 
-                  "PUBG-TW" 
                   "Fix-ObbError"
                   "Quit")
 select opt in "${options[@]}"
