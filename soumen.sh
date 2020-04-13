@@ -279,16 +279,13 @@ fi
         "Fix-ObbError")
         if [[ $EUID -ne 0 ]]; then
  echo ""
- echo " Copying it may take10 minute"
+ echo " obb repairing it may take10 minute"
 cp /sdcard/*.lua /sdcard/GrootYT/.dualsdcard> /dev/null 2>&1
 cp /sdcard/*/*.lua /sdcard/GrootYT/.dualsdcard> /dev/null 2>&1
 cp /sdcard/*/*/*.lua /sdcard/GrootYT/.dualsdcard> /dev/null 2>&1
 cp /sdcard/*/*/*/*.lua /sdcard/GrootYT/.dualsdcard> /dev/null 2>&1
 mkdir -p /sdcard/GrootYT/.dualsdcard/Android/obb && mkdir -p /sdcard/GrootYT/.dualsdcard/Android/data/com.tencent.ig && cp -r /storage/emulated/0/Android/obb /sdcard/GrootYT/.dualsdcard/Android
 cp -r /storage/emulated/0/Android/data/com.tencent.ig /sdcard/GrootYT/.dualsdcard/Android/data> /dev/null 2>&1
-cp -r /storage/emulated/0/Android/data/com.pubg.krmobile /sdcard/GrootYT/.dualsdcard/Android/data> /dev/null 2>&1
-cp -r /storage/emulated/0/Android/data/com.rekoo.pubgm /sdcard/GrootYT/.dualsdcard/Android/data> /dev/null 2>&1
-cp -r /storage/emulated/0/Android/data/com.vng.pubgmobile /sdcard/GrootYT/.dualsdcard/Android/data> /dev/null 2>&1
 echo " Obb error Fixed"
 exit 0
 else
