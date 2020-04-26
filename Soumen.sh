@@ -33,22 +33,22 @@ sleep 1
 clear
 echo -e "\e[36m " 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
-toilet --filter metal 'SOUMEN HAIT'  && sleep 0.3	
-echo -e "\e[34m                     [V1.0] " && echo -e "\e[36m " 
+toilet --filter metal 'SOUMEN'  && sleep 0.3	
+echo -e "\e[34m                     [V1.2] BETA" && echo -e "\e[36m " 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
-echo -e "\e[34m [CHOOSE ONE] "
-PS3=' 
 
-Enter Your choice ~> '
-echo -e "\e[33m "
-options=("PUBG-LITE"      
-                    "Quit")
-select opt in "${options[@]}"
-do
-    case $opt in
-        "PUBG-LITE")
-        echo ""
-if [[ $EUID -ne 0 ]]; then
+
+
+
+
+
+
+
+
+
+
+
+
             
    echo -e "\e[36m[NoRoot_Found] \e[34m Started no root progress.. .." && sleep 2
 if [ -d /data/data/com.soumen.vartual ]; then
@@ -130,12 +130,12 @@ fi
 
 
     
-            ;;
-        "Quit")
-        clear
-      echo "  [Process completed (code 127)] "           
-            exit 0
-            ;;
-        *) echo "invalid option $REPLY" && sleep 1  ;;
-    esac
-done
+
+  
+
+     
+
+           
+
+  
+
