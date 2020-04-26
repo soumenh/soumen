@@ -8,7 +8,8 @@ else
    echo -e "\e[39m"
  exit 0
 fi
-fi
+
+
 if [ -d /data/data/com.soumen.mod ]; then
 echo -e "\e[34m[SOUMEN MOD MANU] \e[32m   FOUND!"
 else
