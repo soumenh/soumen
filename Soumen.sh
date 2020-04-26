@@ -46,7 +46,7 @@ PS3='
 Enter Your choice ~> '
 echo -e "\e[33m "
 options=("PUBG-LITE"
-                  "Quit")
+                    "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
@@ -134,7 +134,7 @@ fi
 
 
     
-   
+            ;;
         "Quit")
         clear
       echo "  [Process completed (code 127)] "           
