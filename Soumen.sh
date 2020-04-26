@@ -24,7 +24,7 @@ else
     echo -e "\e[39m"
 exit 0
 fi
-fi
+
 fi
 fi
     
