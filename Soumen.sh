@@ -139,7 +139,7 @@ fi
         clear
       echo "  [Process completed (code 127)] "           
             exit 0
-            ;;
+       
         *) echo "invalid option $REPLY" && sleep 1  ;;
     esac
 done
