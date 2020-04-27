@@ -78,21 +78,21 @@ clear
 
 
 rm -rf /sdcard/Android/data/com.tencent.iglite/cache &> /dev/null
-touch /sdcard/GrootYT/.dualsdcard/Android/data/com.tencent.ig/cache &> /dev/null
+touch /sdcard/Android/data/com.tencent.iglite/cache &> /dev/null
 
-cd /sdcard/GrootYT/.dualsdcard/Android/data/com.tencent.ig/files &> /dev/null
+cd /sdcard/Android/data/com.tencent.iglite/files &> /dev/null
 rm - rf ProgramBinaryCache tbslog ca-bundle.pem cacheFile.txt login-identifier.txt vmpcloudconfig.json UE4Game/ShadowTrackerExtra/Engine &> /dev/null
 touch ProgramBinaryCache tbslog ca-bundle.pem cacheFile.txt login-identifier.txt vmpcloudconfig.json UE4Game/ShadowTrackerExtra/Engine &> /dev/null
 
-cd /sdcard/GrootYT/.dualsdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
+cd /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
 rm -rf GameErrorNoRecords afd Logs IGH5Cache ImageDownload Pandora GameErrorNoRecords afd Logs IGH5Cache ImageDownload Pandora RoleInfo SaveGames/Activity SaveGames/Match StatEventReportedFlag UpdateInfo Config/Android/AntiCheat.ini Paks/apollo_reslist.flist filelist.json puffer_temp puffer_res.eifs PufferFileList.json PufferTmpDir RoleInfo Paks/*.*cures.ifs.res &> /dev/null
 touch GameErrorNoRecords afd Logs IGH5Cache ImageDownload Pandora GameErrorNoRecords afd Logs IGH5Cache ImageDownload Pandora RoleInfo SaveGames/Activity SaveGames/Match StatEventReportedFlag UpdateInfo Config/Android/AntiCheat.ini Paks/apollo_reslist.flist filelist.json puffer_temp puffer_res.eifs PufferFileList.json PufferTmpDir RoleInfo &> /dev/null
 
-cd /data/data/com.soumen.vartual/system/data/0/com.tencent.ig &> /dev/null
+cd /data/data/com.tencent.iglite.aj/system/data/0/com.tencent.iglite &> /dev/null
 rm - rf app_appcache app_bugly app_crashrecord app_databases app_dex app_geolocation app_tbs app_textures app_webview app_webview_imsdk_inner_webview cache code_cache files files/tss_tmp cache/* &> /dev/null
 touch app_appcache app_bugly app_crashrecord app_databases app_dex app_geolocation app_tbs app_textures app_webview app_webview_imsdk_inner_webview cache code_cache files files/tss_tmp cache/* &> /dev/null
 
-cd /data/data/com.soumen.vartual/system/data/0/com.tencent.ig/databases &> /dev/null
+cd /data/data/com.tencent.iglite.aj/system/data/0/com.tencent.iglite/databases &> /dev/null
 rm rf beacon_db bugly_db_ config.db iMSDK.db tdm.db &> /dev/null
 touch rm rf beacon_db bugly_db_ config.db iMSDK.db tdm.db &> /dev/null
    echo -e ""
@@ -113,7 +113,7 @@ done
 am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null 
 clear & echo " ITS COFEE BREAK , IAM TIRED" && sleep 2 
 apt install sl &> /dev/null && sl && clear
-echo "ITS COFEE BREAK , IAM TIRED"
+
 echo "ANTIBAN OFFED"
 echo " YOU ARE PLAYING PUBG 1.30 HORUS DAMN, PLEASE RESTART GAME "
 echo "DONT FORGET TO SEND YOUR SS TO MR.GROOT"
