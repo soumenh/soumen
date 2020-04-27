@@ -32,10 +32,10 @@ sleep 1
 
 clear
 echo -e "\e[36m " 
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
 toilet --filter metal 'SOUMEN'  && sleep 0.3	
 echo -e "\e[34m                     [V1.2] BETA" && echo -e "\e[36m " 
-echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
 
 
 
@@ -56,11 +56,12 @@ if [ -d /data/data/com.soumen.vartual/system/data/0/com.tencent.iglite ]; then
 
 echo -e "\e[36m [Found Pubg globel-noroot]" && sleep 1 && clear
 echo -e "\e[36m [Injecting Fix crash]" && sleep 1 && clear
-cd /data/data/com.soumen.vartual/system/data/0/com.tencent.iglite && rm -rf app_crashrecord files && echo " globel anti-crash by soumen " > files && echo " globel anti-crash by soumen " > app_crashrecord
+rm -rf /sdcard/Android/data/com.soumen.vartual/files/crashlogs &> /dev/null && echo " globel anti-crash by soumen "
 echo -e "\e[36m [Injecting done with status1]" && sleep 1 && clear
 echo " BYPASS APP IS OPENED FOR 10 SECONDS SO\nACTIVATE IT WITHIN 10 SECONDS"
-echo -e "\e[36m [STARTING BYPASS APP]" && sleep 10
+echo -e "\e[36m [STARTING BYPASS APP]" && sleep 1
 am start -n com.robin.bypass/com.mrteamz.antibannee.MainActivity
+am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null && sleep 10
 echo " VIRTUAL SPACE WILL AUTO START IN 5 SECONDS" && sleep 5
 echo -e "\e[36m [Starting Virtual space]"
 am start -n com.soumen.vartual/com.chaozhuo.gameassistanu.SplashActivity &> /dev/null 
@@ -72,11 +73,11 @@ j=0
 while [ $i -lt 19 ]
 do
 clear
- cd /sdcard/GrootYT/.dualsdcard &> /dev/null
-rm -rf tencent Tencent .backups MidasOversea &> /dev/null
-touch tencent Tencent .backups MidasOversea &> /dev/null
 
-rm -rf /sdcard/GrootYT/.dualsdcard/Android/data/com.tencent.ig/cache &> /dev/null
+
+
+
+rm -rf /sdcard/Android/data/com.tencent.iglite/cache &> /dev/null
 touch /sdcard/GrootYT/.dualsdcard/Android/data/com.tencent.ig/cache &> /dev/null
 
 cd /sdcard/GrootYT/.dualsdcard/Android/data/com.tencent.ig/files &> /dev/null
