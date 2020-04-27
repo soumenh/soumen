@@ -34,7 +34,7 @@ clear
 echo -e "\e[36m " 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
 toilet -F gay 'SOUMEN'  && sleep 0.3	
-echo -e "\e[34m                     [V1.2] BETA" && echo -e "\e[36m " 
+echo -e "\e[34m                  [V1.2] BETA" && echo -e "\e[36m " 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
 
 
@@ -54,7 +54,7 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3
 if [ -d /data/data/com.soumen.vartual ]; then
 if [ -d /data/data/com.soumen.vartual/system/data/0/com.tencent.iglite ]; then
 
-echo -e "\e[36m [Found Pubg globel-noroot]" && sleep 1 && clear
+echo -e "\e[36m [Found Pubg mobile lite]" && sleep 1 && clear
 echo -e "\e[36m [Injecting Fix crash]" && sleep 1 && clear
 rm -rf /sdcard/Android/data/com.soumen.vartual/files/crashlogs &> /dev/null && echo " globel anti-crash by soumen "
 echo -e "\e[36m [Injecting done with status1]" && sleep 1 && clear
