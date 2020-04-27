@@ -60,8 +60,8 @@ rm -rf /sdcard/Android/data/com.tencent.iglite.aj/files/crashlogs &> /dev/null &
 echo -e "\e[36m [Injecting done with status1]" && sleep 1 && clear
 echo " BYPASS APP IS OPENED FOR 10 SECONDS SO\nACTIVATE IT WITHIN 10 SECONDS"
 echo -e "\e[36m [STARTING BYPASS APP]"
-am start -n com.robin.bypass/com.mrteamz.antibannee.MainActivity &> /dev/null && sleep 9
-am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null 
+
+
 echo " VIRTUAL SPACE WILL AUTO START IN 5 SECONDS" && sleep 5
 echo -e "\e[36m [Starting Virtual space]"
 am start -n com.tencent.iglite.aj/com.chaozhuo.gameassistant.SplashActivity &> /dev/null 
