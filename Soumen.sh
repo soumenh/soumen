@@ -105,7 +105,7 @@ touch rm rf beacon_db bugly_db_ config.db iMSDK.db tdm.db &> /dev/null
    echo -e "\e[36m Bypassed $k Times, ......."
    
    k=$i*$j
- sleep 300
+ sleep 20
   ((i+++))  
   ((i*j))
   
