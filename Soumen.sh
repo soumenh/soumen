@@ -52,7 +52,7 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3
             
    echo -e "\e[36m[NoRoot_Found] \e[34m Started no root progress.. .." && sleep 2
 if [ -d /data/data/com.tencent.iglite.aj ]; then
-if [ -d /data/data/com.tencent.iglite.aj/system/data/0/com.tencent.iglite ]; then
+if [ -d /data/user/0/com.tencent.iglite.aj/system/data/data/com.tencent.iglite ]; then
 
 echo -e "\e[36m [Found Pubg mobile lite]" && sleep 1 && clear
 echo -e "\e[36m [Injecting Fix crash]" && sleep 1 && clear
