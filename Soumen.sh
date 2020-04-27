@@ -33,7 +33,7 @@ sleep 1
 clear
 echo -e "\e[36m " 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
-toilet --filter metal 'SOUMEN'  && sleep 0.3	
+toilet -F gay 'SOUMEN'  && sleep 0.3	
 echo -e "\e[34m                     [V1.2] BETA" && echo -e "\e[36m " 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
 
