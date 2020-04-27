@@ -64,7 +64,7 @@ am start -n com.robin.bypass/com.mrteamz.antibannee.MainActivity
 am start -n com.termux/com.termux.app.TermuxActivity &> /dev/null && sleep 10
 echo " VIRTUAL SPACE WILL AUTO START IN 5 SECONDS" && sleep 5
 echo -e "\e[36m [Starting Virtual space]"
-am start -n com.soumen.vartual/com.chaozhuo.gameassistanu.SplashActivity &> /dev/null 
+am start -n com.tencent.iglite.aj/com.chaozhuo.gameassistant.SplashActivity &> /dev/null 
 echo -e "\e[36m [started virtual]" && sleep 5 
 echo -e "\e[36m [starting log cleaner]" && sleep 10
 echo -e "\e[31m   Press CTRL+C to stop!"      
