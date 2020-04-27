@@ -5,21 +5,21 @@ if [ -d /data/data/com.tencent.iglite.aj ]; then
 echo -e "\e[34m[LITE VARTUAL] \e[32m     FOUND!"
 else
     echo -e "\e[34m[LITE VARTUAL ] ~>\e[31m   Not Found,you are not using SOUMEN'S latest vartual"
-   echo -e "\e[39m"
+   echo -e "\e[39m" && sleep 2
  exit 0
 fi
 if [ -d /data/data/com.soumen.mod ]; then
 echo -e "\e[34m[SOUMEN MOD MANU] \e[32m   FOUND!"
 else
     echo -e "\e[34m[SOUMEN MOD MANU ] ~>\e[31m   Not Found,you are not using Soumen mod manu "
-    echo -e "\e[39m"
+    echo -e "\e[39m" && sleep 2
 exit 0
 fi
 if [ -d /data/data/com.robin.bypass ]; then
 echo -e "\e[34m[BYPASS APP] \e[32m   FOUND!"
 else
     echo -e "\e[34m[BYPASS APP] ~>\e[31m   Not Found,you are not using Robin bypass app"
-    echo -e "\e[39m"
+    echo -e "\e[39m" && sleep 2
 exit 0
 fi
 
