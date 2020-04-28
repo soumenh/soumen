@@ -5,21 +5,21 @@ if [ -d /data/data/com.tencent.iglite.aj ]; then
 echo -e "\e[34m[LITE VARTUAL] \e[32m     FOUND!"
 else
     echo -e "\e[34m[LITE VARTUAL ] ~>\e[31m   Not Found,you are not using SOUMEN'S latest vartual"
-   echo -e "\e[39m" && sleep 2
+   echo -e "\e[39m" 
  exit 0
 fi
 if [ -d /data/data/com.soumen.mod ]; then
 echo -e "\e[34m[SOUMEN MOD MANU] \e[32m   FOUND!"
 else
     echo -e "\e[34m[SOUMEN MOD MANU ] ~>\e[31m   Not Found,you are not using Soumen mod manu "
-    echo -e "\e[39m" && sleep 2
+    echo -e "\e[39m" 
 exit 0
 fi
 if [ -d /data/data/com.robin.bypass ]; then
 echo -e "\e[34m[BYPASS APP] \e[32m   FOUND!"
 else
     echo -e "\e[34m[BYPASS APP] ~>\e[31m   Not Found,you are not using Robin bypass app"
-    echo -e "\e[39m" && sleep 2
+    echo -e "\e[39m"
 exit 0
 fi
 
@@ -58,8 +58,8 @@ echo -e "\e[36m [Found Pubg mobile lite]" && sleep 1 && clear
 echo -e "\e[36m [Injecting Fix crash]" && sleep 1 && clear
 rm -rf /sdcard/Android/data/com.tencent.iglite.aj/files/crashlogs &> /dev/null && echo " globel anti-crash by soumen "
 echo -e "\e[36m [Injecting done with status1]" && sleep 1 && clear
-echo " BYPASS APP IS OPENED FOR 10 SECONDS SO\nACTIVATE IT WITHIN 10 SECONDS"
-echo -e "\e[36m [STARTING BYPASS APP]"
+
+
 
 
 echo " VIRTUAL SPACE WILL AUTO START IN 5 SECONDS" && sleep 5
