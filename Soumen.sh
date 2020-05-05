@@ -15,7 +15,7 @@ else
     echo -e "\e[39m" 
 exit 0
 fi
-if [ -d /data/data/com.robin.bypass ]; then
+if [ -d /data/data/com.github.xfalcon.vhosts ]; then
 echo -e "\e[34m[BYPASS APP] \e[32m   FOUND!"
 else
     echo -e "\e[34m[BYPASS APP] ~>\e[31m   Not Found,you are not using Robin bypass app"
