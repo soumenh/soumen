@@ -1,7 +1,7 @@
 
 
 clear && echo -e "\e[36m [Prossing]" && echo "" && echo ""
-if [ -d /data/data/com.tencent.iglite.aj ]; then
+if [ -d /data/data/com.tencent.iglite.sm ]; then
 echo -e "\e[34m[LITE VARTUAL] \e[32m     FOUND!"
 else
     echo -e "\e[34m[LITE VARTUAL ] ~>\e[31m   Not Found,you are not using SOUMEN'S latest vartual"
@@ -51,12 +51,12 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3
 
             
    echo -e "\e[36m[NoRoot_Found] \e[34m Started no root progress.. .." && sleep 2
-if [ -d /data/data/com.tencent.iglite.aj ]; then
-if [ -d /data/user/0/com.tencent.iglite.aj/system/data/data/com.tencent.iglite ]; then
+if [ -d /data/data/com.tencent.iglite.sm ]; then
+if [ -d /data/user/0/com.tencent.iglite.sm/system/data/data/com.tencent.iglite ]; then
 
 echo -e "\e[36m [Found Pubg mobile lite]" && sleep 1 && clear
 echo -e "\e[36m [Injecting Fix crash]" && sleep 1 && clear
-rm -rf /sdcard/Android/data/com.tencent.iglite.aj/files/crashlogs &> /dev/null && echo " globel anti-crash by soumen "
+rm -rf /sdcard/Android/data/com.tencent.iglite.sm/files/crashlogs &> /dev/null && echo " globel anti-crash by soumen "
 echo -e "\e[36m [Injecting done with status1]" && sleep 1 && clear
 
 
@@ -64,7 +64,7 @@ echo -e "\e[36m [Injecting done with status1]" && sleep 1 && clear
 
 echo " VIRTUAL SPACE WILL AUTO START IN 5 SECONDS" && sleep 5
 echo -e "\e[36m [Starting Virtual space]"
-am start -n com.tencent.iglite.aj/com.chaozhuo.gameassistant.SplashActivity &> /dev/null 
+am start -n com.tencent.iglite.sm/com.chaozhuo.gameassistant.SplashActivity &> /dev/null 
 echo -e "\e[36m [started virtual]" && sleep 5 
 echo -e "\e[36m [starting log cleaner]" && sleep 10
 echo -e "\e[31m   Press CTRL+C to stop!"      
