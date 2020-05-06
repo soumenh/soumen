@@ -51,8 +51,8 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3
 
             
    echo -e "\e[36m[NoRoot_Found] \e[34m Started no root progress.. .." && sleep 2
-if [ -d /data/data/com.tencent.iglite.ms ]; then
-if [ -d /data/user/0/com.tencent.iglite.ms/system/data/com.tencent.iglite ]; then
+if [ -d /sdcard/Android/data/com.tencent.iglite ]; then
+
 
 echo -e "\e[36m [Found Pubg mobile lite]" && sleep 1 && clear
 echo -e "\e[36m [Injecting Fix crash]" && sleep 1 && clear
@@ -121,7 +121,7 @@ exit 0
 
 else
 echo " Warning! error 404 "
-echo -e "\e[31m   Add pubg lite inside of lite virtual"    
+echo -e "\e[31m   pubg lite not found"    
 exit 0
 fi
 else
