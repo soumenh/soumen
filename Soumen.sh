@@ -1,14 +1,14 @@
 
 
 clear && echo -e "\e[36m [Prossing]" && echo "" && echo ""
-if [ -d /data/data/com.tencent.iglite.ms ]; then
-echo -e "\e[34m[LITE VARTUAL] \e[32m     FOUND!"
+if [ -d /data/data/com.tencent.iglite ]; then
+echo -e "\e[34m[PUBG LITE] \e[32m     FOUND!"
 else
-    echo -e "\e[34m[LITE VARTUAL ] ~>\e[31m   Not Found,you are not using SOUMEN'S latest vartual"
+    echo -e "\e[34m[PUBG LITE ] ~>\e[31m   Not Found,you are not using SOUMEN'S latest vartual"
    echo -e "\e[39m" 
  exit 0
 fi
-if [ -d /data/data/com.soumen.mod ]; then
+if [ -d /data/data/com.soumen.modmanu ]; then
 echo -e "\e[34m[SOUMEN MOD MANU] \e[32m   FOUND!"
 else
     echo -e "\e[34m[SOUMEN MOD MANU ] ~>\e[31m   Not Found,you are not using Soumen mod manu "
@@ -34,7 +34,7 @@ clear
 echo -e "\e[36m " 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
 toilet -F gay 'SOUMEN'  && sleep 0.3	
-echo -e "\e[34m                  [V1.2] BETA" && echo -e "\e[36m " 
+echo -e "\e[34m                  [V2.0] BETA" && echo -e "\e[36m " 
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3	
 
 
@@ -50,7 +50,7 @@ echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" && sleep 0.3
 
 
             
-   echo -e "\e[36m[NoRoot_Found] \e[34m Started no root progress.. .." && sleep 2
+   echo -e "\e[36m[Root_Found] \e[34m Started root progress.. .." && sleep 2
 if [ -d /sdcard/Android/data/com.tencent.iglite ]; then
 
 
@@ -62,9 +62,9 @@ echo -e "\e[36m [Injecting done with status1]" && sleep 1 && clear
 
 
 
-echo " VIRTUAL SPACE WILL AUTO START IN 5 SECONDS" && sleep 5
-echo -e "\e[36m [Starting Virtual space]"
-am start -n com.tencent.iglite.ms/io.virtualapp.splash.SplashActivity &> /dev/null 
+echo " MOD MANU WILL AUTO START IN 5 SECONDS" && sleep 5
+echo -e "\e[36m [Starting mod manu]"
+am start -n com.soumen.modmanu/com.androlua.Welcome &> /dev/null 
 echo -e "\e[36m [started virtual]" && sleep 5 
 echo -e "\e[36m [starting log cleaner]" && sleep 10
 echo -e "\e[31m   Press CTRL+C to stop!"      
