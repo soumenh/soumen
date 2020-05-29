@@ -51,14 +51,14 @@ else
    echo -e "\e[39m" 
  exit 0
 fi
-if [ -d /sdcard/Android/data/com.soumen.mod ]; then
+if [ -d /data/user/0/com.tencent.iglite.ms ]; then
 echo -e "\e[34m[𝚂𝙾𝚄𝙼𝙴𝙽 𝙼𝙾𝙳 𝙼𝙰𝙽𝚄] \e[32m   𝙵𝙾𝚄𝙽𝙳!"
 else
     echo -e "\e[34m[𝚂𝙾𝚄𝙼𝙴𝙽 𝙼𝙾𝙳 𝙼𝙰𝙽𝚄 ] ➠\e[31m   𝙽𝚘𝚝 𝙵𝚘𝚞𝚗𝚍,𝚢𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚞𝚜𝚒𝚗𝚐 𝚂𝚘𝚞𝚖𝚎𝚗 𝚖𝚘𝚍 𝚖𝚊𝚗𝚞 "
     echo -e "\e[39m" 
 exit 0
 fi
-if [ -d /data/data/com.github.xfalcon.vhosts ]; then
+if [ -d /data/user/0/com.github.xfalcon.vhosts ]; then
 echo -e "\e[34m[𝙱𝚈𝙿𝙰𝚂𝚂 𝙰𝙿𝙿] \e[32m   𝙵𝙾𝚄𝙽𝙳!"
 else
     echo -e "\e[34m[𝙱𝚈𝙿𝙰𝚂𝚂 𝙰𝙿𝙿] ➠\e[31m   𝙽𝚘𝚝 𝙵𝚘𝚞𝚗𝚍,𝚢𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚞𝚜𝚒𝚗𝚐 𝚋𝚢𝚙𝚊𝚜𝚜 𝚊𝚙𝚙"
