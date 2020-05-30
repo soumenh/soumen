@@ -16,7 +16,7 @@ clear
 echo -e "\n    𝙽𝙾𝚆 𝚃𝙷𝙴 𝚃𝙸𝙼𝙴 𝙸𝚂:  " | lolcat | pv -qL 120
 date
 echo -e "\n    𝙼𝙾𝙱𝙸𝙻𝙴 𝙳𝙴𝚃𝙰𝙸𝙻𝚂:  " | lolcat | pv -qL 120
-echo -e -n "\n𝙶𝚂𝙼 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛: " 
+echo -e -n "\n𝙶𝚂𝙼 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛: " | lolcat | pv -qL 120
 getprop gsm.operator.alpha
 sleep 1
 echo -e -n "\n𝙳𝚛𝚘𝚒𝚍 𝙱𝚛𝚊𝚗𝚍: " | lolcat | pv -qL 120
@@ -240,7 +240,7 @@ clear
 echo -e "  𝚂𝚃𝙰𝚁𝚃𝙴𝙳 𝙽𝙾𝙽𝚁𝙾𝙾𝚃 𝙿𝚁𝙾𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
 sleep 0.45
 echo
-if [ -d /data/data/com.tencent.iglite.ms/com.tencent.ig/data/data/0/com.tencent.iglite ]; then
+if [ -d /data/data/com.tencent.iglite.ms/com.tencent.ig/data/app/com.tencent.iglite ]; then
 echo -e " [𝙵𝚘𝚞𝚗𝚍 𝙿𝚞𝚋𝚐 𝚖𝚘𝚋𝚒𝚕𝚎 𝚕𝚒𝚝𝚎]" | lolcat | pv -qL 75
 else
 echo -e " [𝚗𝚘𝚝 𝚏𝚘𝚞𝚗𝚍 𝚙𝚞𝚋𝚐 𝚖𝚘𝚋𝚒𝚕𝚎 𝚕𝚒𝚝𝚎 ] ➠ 𝙿𝙻𝙴𝙰𝚂𝙴 𝙰𝙳𝙳 𝙿𝚄𝙱𝙶 𝙼𝙾𝙱𝙸𝙻𝙴 𝙻𝙸𝚃𝙴 𝙸𝙽 𝚅𝙰𝚁𝚃𝚄𝙰𝙻" | lolcat | pv -qL 75
