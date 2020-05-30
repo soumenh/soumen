@@ -240,15 +240,16 @@ clear
 echo -e "  𝚂𝚃𝙰𝚁𝚃𝙴𝙳 𝙽𝙾𝙽𝚁𝙾𝙾𝚃 𝙿𝚁𝙾𝙲𝙴𝚂𝚂𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
 sleep 0.45
 echo
-if [ -d /sdcard/Android/data/com.tencent.iglite ]; then
+if [ -d /data/data/com.tencent.iglite.ms/com.tencent.ig/data/data/0/com.tencent.iglite ]; then
 echo -e " [𝙵𝚘𝚞𝚗𝚍 𝙿𝚞𝚋𝚐 𝚖𝚘𝚋𝚒𝚕𝚎 𝚕𝚒𝚝𝚎]" | lolcat | pv -qL 75
 else
-echo -e " [𝚗𝚘𝚝 𝚏𝚘𝚞𝚗𝚍 𝚙𝚞𝚋𝚐 𝚖𝚘𝚋𝚒𝚕𝚎 𝚕𝚒𝚝𝚎 ] ➠ 𝙿𝙻𝙴𝙰𝚂𝙴 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳 𝙸𝙽 𝙿𝙻𝙰𝚈𝚂𝚃𝙾𝚁𝙴" | lolcat | pv -qL 75
+echo -e " [𝚗𝚘𝚝 𝚏𝚘𝚞𝚗𝚍 𝚙𝚞𝚋𝚐 𝚖𝚘𝚋𝚒𝚕𝚎 𝚕𝚒𝚝𝚎 ] ➠ 𝙿𝙻𝙴𝙰𝚂𝙴 𝙰𝙳𝙳 𝙿𝚄𝙱𝙶 𝙼𝙾𝙱𝙸𝙻𝙴 𝙻𝙸𝚃𝙴 𝙸𝙽 𝚅𝙰𝚁𝚃𝚄𝙰𝙻" | lolcat | pv -qL 75
 exit 0
 fi
 sleep 1 && clear
 echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝙵𝚒𝚡 𝚌𝚛𝚊𝚜𝚑]" | lolcat | pv -qL 75 && sleep 1 && clear
-rm -rf /sdcard/Android/data/com.tencent.iglite.ms/files/crashlogs &> /dev/null && echo " 𝚐𝚕𝚘𝚋𝚎𝚕 𝚊𝚗𝚝𝚒-𝚌𝚛𝚊𝚜𝚑 𝚋𝚢 𝚜𝚘𝚞𝚖𝚎𝚗 "
+rm -rf /data/data/com.tencent.iglite.ms/com.tencent.ig/data/data/0/com.tencent.iglite/app_crashrecord &> /dev/null
+ && echo " 𝚐𝚕𝚘𝚋𝚎𝚕 𝚊𝚗𝚝𝚒-𝚌𝚛𝚊𝚜𝚑 𝚋𝚢 𝚜𝚘𝚞𝚖𝚎𝚗 "
 echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝚍𝚘𝚗𝚎 𝚠𝚒𝚝𝚑 𝚜𝚝𝚊𝚝𝚞𝚜𝟷]" | lolcat | pv -qL 75 && sleep 1 && clear
 
 
@@ -266,6 +267,13 @@ do
 clear
 
 
+rm -rf /sdcard/tencent .backups &> /dev/null
+tauch /sdcard/tencent .backups &> /dev/null
+
+cd /data/data/com.tencent.iglite.ms/com.tencent.ig/data/data/0/com.tencent.iglite &> /dev/null
+rm -rf app_bugly no_backup cache code_cache &> /dev/null
+tauch app_bugly no_backup cache code_cache &> /dev/null
+
 rm -rf /sdcard/Android/data/com.tencent.iglite/cache &> /dev/null
 touch /sdcard/Android/data/com.tencent.iglite/cache &> /dev/null
 
@@ -276,6 +284,10 @@ touch ca-bundle.pem cacheFile.txt login-identifier.txt vmpcloudconfig.json UE4Ga
 cd /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved &> /dev/null
 rm -rf Logs ImageDownload SaveGames/Activity SaveGames/Match StatEventReportedFlag UpdateInfo Config/Android/AntiCheat.ini Paks/apollo_reslist.flist filelist.json puffer_temp puffer_res.eifs PufferFileList.json PufferTmpDir RoleInfo Paks/*.*cures.ifs.res &> /dev/null
 touch Logs ImageDownload SaveGames/Activity SaveGames/Match StatEventReportedFlag UpdateInfo Config/Android/AntiCheat.ini Paks/apollo_reslist.flist filelist.json puffer_temp puffer_res.eifs PufferFileList.json PufferTmpDir RoleInfo &> /dev/null
+
+cd /data/data/com.tencent.iglite.ms/com.tencent.ig/data/data/0/com.tencent.iglite/databases &>/dev/null
+rm rf bugly_db_ iMSDK.db tdm.db &> /dev/null
+tauch bugly_db_ iMSDK.db tdm.db &> /dev/null
 
    echo -e ""
    echo -e "[33m 𝚁𝚞𝚗𝚗𝚒𝚗𝚐..........[𝚙𝚛𝚎𝚜𝚜 𝙲𝚃𝚁𝙻+𝙲 𝚝𝚘 𝚜𝚝𝚘𝚙] " | lolcat -a -d 30
