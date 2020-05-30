@@ -1,3 +1,16 @@
+clear
+echo -e "[ 𝚂𝙴𝙻𝙴𝙲𝚃 𝚈𝙾𝚄𝚁 𝙾𝙿𝚃𝙸𝙾𝙽 ]" | lolcat | pv -qL 70
+PS3='
+𝙴𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝙲𝙷𝙾𝙾𝚂𝙴 ➠ '
+echo -e "\e[33m "
+options=("𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶-𝙷𝙰𝙲𝙺"
+"𝚄𝙿𝙳𝙰𝚃𝙴"
+"𝚀𝚄𝙸𝚃")
+select opt in "${options[@]}"
+do
+case $opt in
+"𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶-𝙷𝙰𝙲𝙺")
+clear
 pkg install python -y &> /dev/null && pip install --upgrade pip &> /dev/null && pip install lolcat &> /dev/null && pkg install pv &> /dev/null &&
 clear
 echo -e "\n    𝙽𝙾𝚆 𝚃𝙷𝙴 𝚃𝙸𝙼𝙴 𝙸𝚂:  " | lolcat | pv -qL 120
@@ -286,9 +299,90 @@ echo "𝙰𝙽𝚃𝙸𝙱𝙰𝙽 𝙾𝙵𝙵𝙴𝙳" | lolcat | pv -qL 75
 echo " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙿𝚄𝙱𝙶 𝟷.𝟹𝟶 𝙷𝙾𝚁𝚄𝚂 𝙳𝙰𝙼𝙽, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚂𝚃𝙰𝚁𝚃 𝙶𝙰𝙼𝙴 " | lolcat | pv -qL 75
 echo "𝙳𝙾𝙽𝚃 𝙵𝙾𝚁𝙶𝙴𝚃 𝚃𝙾 𝚂𝙴𝙽𝙳 𝚈𝙾𝚄𝚁 𝙵𝙴𝙴𝙳𝙱𝙰𝙲𝙺" | lolcat | pv -qL 75
 exit 0
-
-else
-echo " 𝚆𝚊𝚛𝚗𝚒𝚗𝚐! 𝚎𝚛𝚛𝚘𝚛 𝟺𝟶𝟺 "
-echo -e "\e[31m    𝚌𝚊𝚗𝚝 𝚏𝚒𝚗𝚍  𝙻𝙸𝚃𝙴 𝚅𝙰𝚁𝚃𝚄𝙰𝙻]"    
+;;
+"𝚄𝙿𝙳𝙰𝚃𝙴")
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃••• " 
+sleep 0.45
+clear
+echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
+sleep 0.45
+rm -rf soumen &> /dev/null && git clone https://github.com/soumenh/soumen &> /dev/null && cp -r soumen/Soumen.sh /data/data/com.termux/files/usr/bin &> /dev/null && chmod +x /data/data/com.termux/files/usr/bin/Soumen.sh &> /dev/null && chmod +x /data/data/com.termux/files/usr/bin/Soumen.sh &> /dev/null && rm -rf soumen &> /dev/null
+clear
+echo -e " [𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙰𝙽𝚈 𝙴𝚁𝚁𝙾𝚁]" | lolcat | pv -qL 75
 exit 0
-fi
+;;
+"𝚀𝚄𝙸𝚃")
+clear
+echo -e " [𝙿𝚛𝚘𝚌𝚎𝚜𝚜 𝚌𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍 (𝚌𝚘𝚍𝚎 𝟷𝟸𝟽)] " | lolcat | pv -qL 60
+exit 0
+;;
+*) echo "𝙸𝙽𝚅𝙰𝙻𝙸𝙳 𝙾𝙿𝚃𝙸𝙾𝙽 $REPLY" && sleep 1  ;;
+esac
+done
