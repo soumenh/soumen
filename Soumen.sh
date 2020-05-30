@@ -1,3 +1,4 @@
+pkg install python -y &> /dev/null && pip install --upgrade pip &> /dev/null && pip install lolcat &> /dev/null && pkg install pv &> /dev/null &&
 clear
 echo -e "\n    𝙽𝙾𝚆 𝚃𝙷𝙴 𝚃𝙸𝙼𝙴 𝙸𝚂:  " 
 date
