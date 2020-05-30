@@ -71,12 +71,16 @@ fi
 sleep 1
 
 clear
-echo -e "\e[36m " 
-echo -n "   █" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" && sleep 0.3	
-toilet -F gay 'SOUMEN'  && sleep 0.3	
-echo -e "\e[34m                  [𝚅𝟹.𝟶]" && echo -e "\e[36m " 
-echo -n "   █" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ;echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" ; sleep .1 ; echo -n "█" && sleep 0.3	
+echo -e " ╔══════════════════ ≪ •❈• ≫ ════════════════════╗
 
+   █▀▀█ █░░▒█   █▀▀▀█ █▀▀▀█ █░▒█ █▀▄▀█ █▀▀▀ █▄░▒█
+   █▀▀▄ █▄▄▄█   ▀▀▀▄▄ █░░▒█ █░▒█ █▒█▒█ █▀▀▀ █▒█▒█
+   █▄▄█ ░▒█░░   █▄▄▄█ █▄▄▄█ ▀▄▄▀ █░░▒█ █▄▄▄ █░░▀█
+
+              █░░▒█ ░░ ░█▀█░ ░ █▀▀█
+              ▒█▒█░ ▀▀ █▄▄█▄ ░ █▄▀█
+              ░▀▄▀░ ░░ ░░░█░ █ █▄▄█
+ ╚══════════════════ ≪ •❈• ≫ ════════════════════╝" | lolcat -a -d 50
 
 
 
