@@ -291,13 +291,13 @@ rm rf bugly_db_ iMSDK.db tdm.db &> /dev/null
 tauch bugly_db_ iMSDK.db tdm.db &> /dev/null
 
    echo -e ""
-   echo -e "[33m 𝚁𝚞𝚗𝚗𝚒𝚗𝚐..........[𝚙𝚛𝚎𝚜𝚜 𝙲𝚃𝚁𝙻+𝙲 𝚝𝚘 𝚜𝚝𝚘𝚙] " | lolcat -a -d 30
+   echo -e "          𝙻𝚘𝚐 𝙲𝚕𝚎𝚊𝚗𝚎𝚛 𝚁𝚞𝚗𝚗𝚒𝚗𝚐..........[𝚙𝚛𝚎𝚜𝚜 𝙲𝚃𝚁𝙻+𝙲 𝚝𝚘 𝚜𝚝𝚘𝚙] " | lolcat -a -d 30
    echo ""
    echo ""
    echo -e " 𝙻𝚘𝚐𝚜 𝚌𝚕𝚎𝚊𝚛𝚎𝚍 $i 𝚃𝚒𝚖𝚎𝚜, 𝙻𝚘𝚘𝚙𝚒𝚗𝚐......." | lolcat | pv -qL 75
    echo ""
    echo""
-   echo -e " 𝙱𝚢𝚙𝚊𝚜𝚜𝚎𝚍 $k 𝚃𝚒𝚖𝚎𝚜, ......." | lolcat | pv -qL 75
+   echo -e " 𝙱𝚢𝚙𝚊𝚜𝚜𝚎𝚍 $k 𝚃𝚒𝚖𝚎𝚜......." | lolcat | pv -qL 75
    
    k=$i*$j
  sleep 300
