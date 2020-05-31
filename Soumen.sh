@@ -250,7 +250,7 @@ fi
 sleep 1 && clear
 echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝙵𝚒𝚡 𝚌𝚛𝚊𝚜𝚑]" | lolcat | pv -qL 75 && sleep 1 && clear
 rm -rf /data/data/com.tencent.iglite.ms/com.tencent.ig/data/data/0/com.tencent.iglite/app_crashrecord &> /dev/null
-echo -e " 𝚐𝚕𝚘𝚋𝚎𝚕 𝚊𝚗𝚝𝚒-𝚌𝚛𝚊𝚜𝚑 𝚋𝚢 𝚜𝚘𝚞𝚖𝚎𝚗 " | lolcat | pv -qL 75
+echo -e " 𝚐𝚕𝚘𝚋𝚎𝚕 𝚊𝚗𝚝𝚒-𝚌𝚛𝚊𝚜𝚑 𝚋𝚢 𝚜𝚘𝚞𝚖𝚎𝚗 " | lolcat | pv -qL 75 && sleep 1
 echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝚍𝚘𝚗𝚎 𝚠𝚒𝚝𝚑 𝚜𝚝𝚊𝚝𝚞𝚜𝟷]" | lolcat | pv -qL 75 && sleep 1 && clear
 
 
@@ -297,7 +297,7 @@ tauch bugly_db_ iMSDK.db tdm.db &> /dev/null
    echo -e " 𝙻𝚘𝚐𝚜 𝚌𝚕𝚎𝚊𝚛𝚎𝚍 $i 𝚃𝚒𝚖𝚎𝚜, 𝙻𝚘𝚘𝚙𝚒𝚗𝚐......." | lolcat | pv -qL 75
    echo ""
    echo""
-   echo -e " 𝙱𝚢𝚙𝚊𝚜𝚜𝚎𝚍 $k 𝚃𝚒𝚖𝚎𝚜......." | lolcat | pv -qL 75
+   echo -e " 𝙱𝚢𝚙𝚊𝚜𝚜𝚎𝚍 $k 𝚃𝚒𝚖𝚎𝚜, ......." | lolcat | pv -qL 75
    
    k=$i*$j
  sleep 300
