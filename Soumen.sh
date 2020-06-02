@@ -1,5 +1,5 @@
 clear
-echo -e "[ 𝚂𝙴𝙻𝙴𝙲𝚃 𝚈𝙾𝚄𝚁 𝙾𝙿𝚃𝙸𝙾𝙽 ]" | lolcat | pv -qL 70
+echo -e "[ 𝚂𝙴𝙻𝙴𝙲𝚃 𝚈𝙾𝚄𝚁 𝙾𝙿𝚃𝙸𝙾𝙽 ]" | lolcat
 PS3='
 𝙴𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝙲𝙷𝙾𝙾𝚂𝙴 ➠ '
 echo -e "\e[33m "
