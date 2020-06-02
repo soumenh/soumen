@@ -15,7 +15,7 @@ clear
 echo -e "[𝚂𝙴𝙻𝙴𝙲𝚃 𝚈𝙾𝚄𝚁 𝙾𝙿𝚃𝙸𝙾𝙽]"
 PS3='
 𝙴𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝙲𝙷𝙾𝙾𝚂𝙴 ➠ '
-sleep 1
+
 options=("𝙷𝙰𝙲𝙺 𝙾𝙽"
 "𝙷𝙰𝙲𝙺 𝙾𝙵𝙵"
 "𝙱𝙰𝙲𝙺")
@@ -257,8 +257,10 @@ while [ $i -lt 19 ]
 do
 clear
 
+mkdr /sdcard/.soumen &> dev/null
+
 cd /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-rm -rf game_patch_0.17.0.13427.pak game_patch_0.17.0.13429.pak 1375135419_67_0.17.0.13429_20200527092342_1926091522_cures.ifs.res &> /dev/null
+mv game_patch_0.17.0.13427.pak game_patch_0.17.0.13429.pak /sdcard/.soumen &> /dev/null
 
 
 rm -rf /sdcard/tencent .backups &> /dev/null
@@ -309,7 +311,9 @@ exit 0
 "𝙷𝙰𝙲𝙺 𝙾𝙵𝙵")
 clear
 sleep 1
-echo "hack off done"
+echo "𝙲𝙷𝙰𝚃𝚃𝙸𝙽𝙶 𝙾𝙵𝙵 𝙱𝚈 𝚂𝙾𝚄𝙼𝙴𝙽 , 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃...."
+cd /sdcard/.soumen &> dev/null
+cp game_patch_0.17.0.13427.pak game_patch_0.17.0.13429.pak  /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> dev/null
 exit 0
 ;;
 "𝙱𝙰𝙲𝙺")
