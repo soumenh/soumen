@@ -355,18 +355,8 @@ sleep 0.45
 clear
 echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
 sleep 0.45
-clear
-echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃• " 
-sleep 0.45
-clear
-echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•• " 
-sleep 0.45
-clear
-echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃••• " 
-sleep 0.45
-clear
-echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
-sleep 0.45
+
+
 rm -rf soumen &> /dev/null && git clone https://github.com/soumenh/soumen &> /dev/null && cp -r soumen/Soumen.sh /data/data/com.termux/files/usr/bin &> /dev/null && chmod +x /data/data/com.termux/files/usr/bin/Soumen.sh &> /dev/null && chmod +x /data/data/com.termux/files/usr/bin/Soumen.sh &> /dev/null && rm -rf soumen &> /dev/null
 clear
 echo -e " [𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙰𝙽𝚈 𝙴𝚁𝚁𝙾𝚁]" | lolcat | pv -qL 75
