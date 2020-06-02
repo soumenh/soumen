@@ -312,8 +312,9 @@ exit 0
 clear
 sleep 1
 echo "𝙲𝙷𝙰𝚃𝚃𝙸𝙽𝙶 𝙾𝙵𝙵 𝙱𝚈 𝚂𝙾𝚄𝙼𝙴𝙽 , 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃...."
-cd /sdcard/.soumen &> dev/null
-cp game_patch_0.17.0.13427.pak game_patch_0.17.0.13429.pak  /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> dev/null
+cd /sdcard/.soumen
+mv game_patch_0.17.0.13427.pak game_patch_0.17.0.13429.pak  /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+rm -rf /sdcard/.soumen
 exit 0
 ;;
 "𝙱𝙰𝙲𝙺")
