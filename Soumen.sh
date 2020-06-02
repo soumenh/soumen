@@ -386,6 +386,7 @@ Soumen.sh
 "𝚀𝚄𝙸𝚃")
 clear
 echo -e " [𝙿𝚛𝚘𝚌𝚎𝚜𝚜 𝚌𝚘𝚖𝚙𝚕𝚎𝚝𝚎𝚍 (𝚌𝚘𝚍𝚎 𝟷𝟸𝟽)] " | lolcat | pv -qL 180
+echo " "
 exit 0
 ;;
 *) echo "𝙸𝙽𝚅𝙰𝙻𝙸𝙳 𝙾𝙿𝚃𝙸𝙾𝙽 $REPLY" && sleep 1  ;;
