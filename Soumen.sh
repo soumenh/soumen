@@ -237,8 +237,8 @@ echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝚍𝚘𝚗𝚎 𝚠𝚒𝚝�
 echo " 𝙻𝙸𝚃𝙴 𝚅𝙰𝚁𝚃𝚄𝙰𝙻 𝚆𝙸𝙻𝙻 𝙰𝚄𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝙸𝙽 𝟻 𝚂𝙴𝙲𝙾𝙽𝙳𝚂" | lolcat | pv -qL 200 && sleep 5
 echo -e " [𝚂𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚒𝚝𝚎 𝚟𝚊𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 200
 am start -n com.tencent.iglite.ms/io.virtualapp.splash.SplashActivity &> /dev/null 
-echo -e " [𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚟𝚒𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 75 && sleep 5 
-echo -e " [𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚘𝚐 𝚌𝚕𝚎𝚊𝚗𝚎𝚛]" | lolcat | pv -qL 75 && sleep 30
+echo -e " [𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚟𝚒𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 75 && sleep 10 
+echo -e " [𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚘𝚐 𝚌𝚕𝚎𝚊𝚗𝚎𝚛]" | lolcat | pv -qL 75 && sleep 45
 i=1
 j=0
 while [ $i -lt 19 ]
@@ -272,13 +272,13 @@ rm rf bugly_db_ iMSDK.db tdm.db &> /dev/null
 tauch bugly_db_ iMSDK.db tdm.db &> /dev/null
 
    echo -e ""
-   echo -e "          𝙻𝚘𝚐 𝙲𝚕𝚎𝚊𝚗𝚎𝚛 𝚁𝚞𝚗𝚗𝚒𝚗𝚐..........[𝚙𝚛𝚎𝚜𝚜 𝙲𝚃𝚁𝙻+𝙲 𝚝𝚘 𝚜𝚝𝚘𝚙] " | lolcat -a -d 30
+   echo -e "  𝙻𝚘𝚐 𝙲𝚕𝚎𝚊𝚗𝚎𝚛 𝚁𝚞𝚗𝚗𝚒𝚗𝚐..........[𝚙𝚛𝚎𝚜𝚜 𝙲𝚃𝚁𝙻+𝙲 𝚝𝚘 𝚜𝚝𝚘𝚙] " | lolcat -a -d 30
    echo ""
    echo ""
-   echo -e " 𝙻𝚘𝚐𝚜 𝚌𝚕𝚎𝚊𝚛𝚎𝚍 $i 𝚃𝚒𝚖𝚎𝚜, 𝙻𝚘𝚘𝚙𝚒𝚗𝚐......." | lolcat | pv -qL 75
+   echo -e " 𝙻𝚘𝚐𝚜 𝚌𝚕𝚎𝚊𝚛𝚎𝚍 $i times, 𝙻𝚘𝚘𝚙𝚒𝚗𝚐......." | lolcat | pv -qL 75
    echo ""
    echo""
-   echo -e " 𝙱𝚢𝚙𝚊𝚜𝚜𝚎𝚍 $k 𝚃𝚒𝚖𝚎𝚜, ......." | lolcat | pv -qL 75
+   echo -e " 𝙱𝚢𝚙𝚊𝚜𝚜𝚎𝚍 $k times, ......." | lolcat | pv -qL 75
    
    k=$i*$j
  sleep 300
