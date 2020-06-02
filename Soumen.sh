@@ -18,38 +18,38 @@ clear
 echo -e "\n    𝙽𝙾𝚆 𝚃𝙷𝙴 𝚃𝙸𝙼𝙴 𝙸𝚂:  " | lolcat | pv -qL 120
 date
 echo -e "\n    𝙼𝙾𝙱𝙸𝙻𝙴 𝙳𝙴𝚃𝙰𝙸𝙻𝚂:  " | lolcat | pv -qL 120
-echo -e -n "\n𝙶𝚂𝙼 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛: " | lolcat | pv -qL 20
+echo -e -n "\n𝙶𝚂𝙼 𝙾𝚙𝚎𝚛𝚊𝚝𝚘𝚛: " | lolcat | pv -qL 250
 getprop gsm.operator.alpha
 sleep 0.40
-echo -e -n "\n𝙳𝚛𝚘𝚒𝚍 𝙱𝚛𝚊𝚗𝚍: " | lolcat | pv -qL 20
+echo -e -n "\n𝙳𝚛𝚘𝚒𝚍 𝙱𝚛𝚊𝚗𝚍: " | lolcat | pv -qL 250
 getprop ro.product.brand
 sleep 0.40
-echo -e -n "\n𝙳𝚛𝚘𝚒𝚍 𝙼𝚘𝚍𝚎𝚕: " | lolcat | pv -qL 20
+echo -e -n "\n𝙳𝚛𝚘𝚒𝚍 𝙼𝚘𝚍𝚎𝚕: " | lolcat | pv -qL 250
 getprop ro.product.model
 sleep 0.40
-echo -e -n "\n𝚂𝚘𝚏𝚝𝚠𝚊𝚛𝚎 𝚅𝚎𝚛𝚜𝚒𝚘𝚗: " | lolcat | pv -qL 20
+echo -e -n "\n𝚂𝚘𝚏𝚝𝚠𝚊𝚛𝚎 𝚅𝚎𝚛𝚜𝚒𝚘𝚗: " | lolcat | pv -qL 250
 getprop ro.build.software.version
 sleep 0.40
-echo -e -n "\n𝙰𝙿𝙸 𝙻𝚎𝚟𝚎𝚕: " | lolcat | pv -qL 20
+echo -e -n "\n𝙰𝙿𝙸 𝙻𝚎𝚟𝚎𝚕: " | lolcat | pv -qL 250
 getprop ro.product.first_api_level
 sleep 0.40
-echo -e -n "\n𝚂𝙳𝙺 𝙸𝚗𝚏𝚘: " | lolcat | pv -qL 20
+echo -e -n "\n𝚂𝙳𝙺 𝙸𝚗𝚏𝚘: " | lolcat | pv -qL 250
 getprop ro.build.version.sdk
 sleep 0.40
-echo -e -n "\n𝙲𝙿𝚄 𝙰𝙱𝙸: " | lolcat | pv -qL 20
+echo -e -n "\n𝙲𝙿𝚄 𝙰𝙱𝙸: " | lolcat | pv -qL 250
 getprop ro.product.cpu.abi
 sleep 0.40
-echo -e -n "\n𝚃𝚒𝚖𝚎 𝚉𝚘𝚗𝚎: " | lolcat | pv -qL 20
+echo -e -n "\n𝚃𝚒𝚖𝚎 𝚉𝚘𝚗𝚎: " | lolcat | pv -qL 250
 getprop persist.sys.timezone
 sleep 0.40
-echo -e -n "\n𝙳𝚎𝚟𝚒𝚌𝚎 𝙷𝚊𝚛𝚍𝚠𝚊𝚛𝚎: " | lolcat | pv -qL 20
+echo -e -n "\n𝙳𝚎𝚟𝚒𝚌𝚎 𝙷𝚊𝚛𝚍𝚠𝚊𝚛𝚎: " | lolcat | pv -qL 250
 getprop ro.hardware
 sleep 0.40
-echo -e -n "\n𝙼𝚎𝚖𝚘𝚛𝚢 𝙸𝚗𝚏𝚘: " | lolcat | pv -qL 20
+echo -e -n "\n𝙼𝚎𝚖𝚘𝚛𝚢 𝙸𝚗𝚏𝚘: " | lolcat | pv -qL 250
 echo -e ""
 RAM=`grep "𝙼𝚎𝚖𝚃𝚘𝚝𝚊𝚕" /proc/meminfo | cut -f 2 -d ':'`
 sleep 0.40
-echo " 𝚁𝙰𝙼 : " $RAM | lolcat | pv -qL 20
+echo " 𝚁𝙰𝙼 : " $RAM | lolcat | pv -qL 250
 sleep 1
 echo
 clear
@@ -234,8 +234,8 @@ echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝚍𝚘𝚗𝚎 𝚠𝚒𝚝�
 
 
 
-echo " 𝙻𝙸𝚃𝙴 𝚅𝙰𝚁𝚃𝚄𝙰𝙻 𝚆𝙸𝙻𝙻 𝙰𝚄𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝙸𝙽 𝟻 𝚂𝙴𝙲𝙾𝙽𝙳𝚂" | lolcat | pv -qL 30 && sleep 5
-echo -e " [𝚂𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚒𝚝𝚎 𝚟𝚊𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 30
+echo " 𝙻𝙸𝚃𝙴 𝚅𝙰𝚁𝚃𝚄𝙰𝙻 𝚆𝙸𝙻𝙻 𝙰𝚄𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝙸𝙽 𝟻 𝚂𝙴𝙲𝙾𝙽𝙳𝚂" | lolcat | pv -qL 200 && sleep 5
+echo -e " [𝚂𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚒𝚝𝚎 𝚟𝚊𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 200
 am start -n com.tencent.iglite.ms/io.virtualapp.splash.SplashActivity &> /dev/null 
 echo -e " [𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚟𝚒𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 75 && sleep 5 
 echo -e " [𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚘𝚐 𝚌𝚕𝚎𝚊𝚗𝚎𝚛]" | lolcat | pv -qL 75 && sleep 30
