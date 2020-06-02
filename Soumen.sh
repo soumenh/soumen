@@ -240,8 +240,8 @@ fi
 sleep 1 && clear
 echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝙵𝚒𝚡 𝚌𝚛𝚊𝚜𝚑]" | lolcat | pv -qL 200 && sleep 1 && clear
 rm -rf /data/data/com.tencent.iglite.ms/com.tencent.ig/data/data/0/com.tencent.iglite/app_crashrecord &> /dev/null
-echo -e " 𝚐𝚕𝚘𝚋𝚎𝚕 𝚊𝚗𝚝𝚒-𝚌𝚛𝚊𝚜𝚑 𝚋𝚢 𝚜𝚘𝚞𝚖𝚎𝚗 " | lolcat | pv -qL 75 && sleep 1
-echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝚍𝚘𝚗𝚎 𝚠𝚒𝚝𝚑 𝚜𝚝𝚊𝚝𝚞𝚜𝟷]" | lolcat | pv -qL 75 && sleep 1 && clear
+echo -e " 𝚐𝚕𝚘𝚋𝚎𝚕 𝚊𝚗𝚝𝚒-𝚌𝚛𝚊𝚜𝚑 𝚋𝚢 𝚜𝚘𝚞𝚖𝚎𝚗 " | lolcat | pv -qL 200 && sleep 1
+echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝚍𝚘𝚗𝚎 𝚠𝚒𝚝𝚑 𝚜𝚝𝚊𝚝𝚞𝚜𝟷]" | lolcat | pv -qL 200 && sleep 1 && clear
 
 
 
@@ -250,7 +250,7 @@ echo " 𝙻𝙸𝚃𝙴 𝚅𝙰𝚁𝚃𝚄𝙰𝙻 𝚆𝙸𝙻𝙻 𝙰𝚄�
 echo -e " [𝚂𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚒𝚝𝚎 𝚟𝚊𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 200
 am start -n com.tencent.iglite.ms/io.virtualapp.splash.SplashActivity &> /dev/null 
 echo -e " [𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚟𝚒𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 200 && sleep 10 
-echo -e " [𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚘𝚐 𝚌𝚕𝚎𝚊𝚗𝚎𝚛]" | lolcat | pv -qL 75 && sleep 50
+echo -e " [𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚘𝚐 𝚌𝚕𝚎𝚊𝚗𝚎𝚛]" | lolcat | pv -qL 75 && sleep 40
 i=1
 j=0
 while [ $i -lt 19 ]
@@ -375,21 +375,7 @@ sleep 0.45
 clear
 echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃••• " 
 sleep 0.45
-clear
-echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
-sleep 0.45
-clear
-echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃• " 
-sleep 0.45
-clear
-echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•• " 
-sleep 0.45
-clear
-echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃••• " 
-sleep 0.45
-clear
-echo -e "  𝚄𝙿𝙳𝙰𝚃𝙸𝙽𝙶 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃•••• " 
-sleep 0.45
+
 
 
 rm -rf soumen &> /dev/null && git clone https://github.com/soumenh/soumen &> /dev/null && cp -r soumen/Soumen.sh /data/data/com.termux/files/usr/bin &> /dev/null && chmod +x /data/data/com.termux/files/usr/bin/Soumen.sh &> /dev/null && chmod +x /data/data/com.termux/files/usr/bin/Soumen.sh &> /dev/null && rm -rf soumen &> /dev/null
