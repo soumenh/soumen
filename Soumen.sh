@@ -12,6 +12,18 @@ do
 case $opt in
 "𝚂𝚃𝙰𝚁𝚃𝙸𝙽𝙶-𝙷𝙰𝙲𝙺")
 clear
+echo -e "[𝚂𝙴𝙻𝙴𝙲𝚃 𝚈𝙾𝚄𝚁 𝙾𝙿𝚃𝙸𝙾𝙽]"
+PS3='
+𝙴𝙽𝚃𝙴𝚁 𝚈𝙾𝚄𝚁 𝙲𝙷𝙾𝙾𝚂𝙴 ➠ '
+sleep 1
+options=("𝙷𝙰𝙲𝙺 𝙾𝙽"
+"𝙷𝙰𝙲𝙺 𝙾𝙵𝙵"
+"𝙱𝙰𝙲𝙺")
+select opt in "${options[@]}"
+do
+case $opt in
+"𝙷𝙰𝙲𝙺 𝙾𝙽")
+clear
 echo -e "STARTING PLEASE WAIT....." |lolcat -a -d 20
 pkg install python -y &> /dev/null && pip install --upgrade pip &> /dev/null && pip install lolcat &> /dev/null && pkg install pv &> /dev/null &&
 clear
@@ -293,6 +305,21 @@ echo "𝙰𝙽𝚃𝙸𝙱𝙰𝙽 𝙾𝙵𝙵𝙴𝙳" | lolcat | pv -qL 75
 echo " 𝚈𝙾𝚄 𝙰𝚁𝙴 𝙿𝙻𝙰𝚈𝙸𝙽𝙶 𝙿𝚄𝙱𝙶 𝟷.𝟹𝟶 𝙷𝙾𝚁𝚄𝚂 𝙳𝙰𝙼𝙽, 𝙿𝙻𝙴𝙰𝚂𝙴 𝚁𝙴𝚂𝚃𝙰𝚁𝚃 𝙶𝙰𝙼𝙴 " | lolcat | pv -qL 75
 echo "𝙳𝙾𝙽𝚃 𝙵𝙾𝚁𝙶𝙴𝚃 𝚃𝙾 𝚂𝙴𝙽𝙳 𝚈𝙾𝚄𝚁 𝙵𝙴𝙴𝙳𝙱𝙰𝙲𝙺" | lolcat | pv -qL 75
 exit 0
+;;
+"𝙷𝙰𝙲𝙺 𝙾𝙵𝙵")
+clear
+sleep 1
+echo "hack off done"
+exit 0
+;;
+"𝙱𝙰𝙲𝙺")
+clear
+sleep 1
+Soumen.sh
+;;
+*) echo "𝙸𝙽𝚅𝙰𝙻𝙸𝙳 𝙾𝙿𝚃𝙸𝙾𝙽 $REPLY" && sleep 1  ;;
+esac
+done
 ;;
 "𝚄𝙿𝙳𝙰𝚃𝙴")
 clear
