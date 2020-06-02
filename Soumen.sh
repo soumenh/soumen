@@ -256,8 +256,8 @@ j=0
 while [ $i -lt 19 ]
 do
 clear
-
-mkdr /sdcard/.soumen &> dev/null
+rm -rf /sdcard/.soumen &> dev/null
+mkdir /sdcard/.soumen &> dev/null
 
 cd /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
 mv game_patch_0.17.0.13427.pak game_patch_0.17.0.13429.pak /sdcard/.soumen &> /dev/null
