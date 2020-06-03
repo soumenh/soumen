@@ -256,11 +256,11 @@ j=0
 while [ $i -lt 19 ]
 do
 clear
-rm -rf /sdcard/.soumen
-mkdir /sdcard/.soumen
+rm -rf /sdcard/soumen
+mkdir /sdcard/soumen
 
-cd /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks &> /dev/null
-mv game_patch_0.17.0.13427.pak game_patch_0.17.0.13429.pak /sdcard/.soumen &> /dev/null
+cd /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+mv game_patch_0.17.0.13427.pak game_patch_0.17.0.13429.pak /sdcard/soumen
 
 
 rm -rf /sdcard/tencent .backups &> /dev/null
@@ -313,9 +313,9 @@ clear
 sleep 1
 echo " "
 echo "𝙲𝙷𝙰𝚃𝚃𝙸𝙽𝙶 𝙾𝙵𝙵 𝙱𝚈 𝚂𝙾𝚄𝙼𝙴𝙽 , 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃...."
-cd /sdcard/.soumen
+cd /sdcard/soumen
 mv game_patch_0.17.0.13427.pak game_patch_0.17.0.13429.pak  /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-rm -rf /sdcard/.soumen
+rm -rf /sdcard/soumen
 sleep 0.30
 echo -e "𝙱𝚈𝙴 𝙱𝚈𝙴 , 𝙷𝙰𝚅𝙴 𝙰 𝙽𝙸𝙲𝙴 𝙳𝙰𝚈"
 exit 0
