@@ -382,6 +382,7 @@ rm -rf soumen &> /dev/null && git clone https://github.com/soumenh/soumen &> /de
 clear
 echo -e " [𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 𝚆𝙸𝚃𝙷𝙾𝚄𝚃 𝙰𝙽𝚈 𝙴𝚁𝚁𝙾𝚁]" | lolcat | pv -qL 200
 Soumen.sh
+exit 0
 ;;
 "𝚀𝚄𝙸𝚃")
 clear
