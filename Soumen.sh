@@ -59,7 +59,7 @@ getprop ro.hardware
 sleep 0.40
 echo -e -n "\n𝙼𝚎𝚖𝚘𝚛𝚢 𝙸𝚗𝚏𝚘: " | lolcat | pv -qL 250
 echo -e ""
-RAM=`grep "𝙼𝚎𝚖𝚃𝚘𝚝𝚊𝚕" /proc/meminfo | cut -f 2 -d ':'`
+RAM=`grep "MemTotal" /proc/meminfo | cut -f 2 -d ':'`
 sleep 0.40
 echo " 𝚁𝙰𝙼 : " $RAM | lolcat | pv -qL 250
 sleep 1
