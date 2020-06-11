@@ -39,9 +39,9 @@ sleep 0.40
 echo -e -n "\n𝙳𝚛𝚘𝚒𝚍 𝙼𝚘𝚍𝚎𝚕: " | lolcat | pv -qL 250
 getprop ro.product.model
 sleep 0.40
-echo -e -n "\n𝚂𝚘𝚏𝚝𝚠𝚊𝚛𝚎 𝚅𝚎𝚛𝚜𝚒𝚘𝚗: " | lolcat | pv -qL 250
-getprop ro.build.software.version
-sleep 0.40
+
+
+
 echo -e -n "\n𝙰𝙿𝙸 𝙻𝚎𝚟𝚎𝚕: " | lolcat | pv -qL 250
 getprop ro.product.first_api_level
 sleep 0.40
