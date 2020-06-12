@@ -207,8 +207,9 @@ echo -e " [𝙸𝚗𝚓𝚎𝚌𝚝𝚒𝚗𝚐 𝚍𝚘𝚗𝚎 𝚠𝚒𝚝�
 echo " 𝙻𝙸𝚃𝙴 𝚅𝙰𝚁𝚃𝚄𝙰𝙻 𝚆𝙸𝙻𝙻 𝙰𝚄𝚃𝙾 𝚂𝚃𝙰𝚁𝚃 𝙸𝙽 𝟻 𝚂𝙴𝙲𝙾𝙽𝙳𝚂" | lolcat | pv -qL 200 && sleep 5
 echo -e " [𝚂𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚒𝚝𝚎 𝚟𝚊𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 200
 am start -n com.tencent.iglite.ms/io.virtualapp.splash.SplashActivity &> /dev/null 
-echo -e " [𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚟𝚒𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 200 && sleep 10 
-echo -e " [𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚘𝚐 𝚌𝚕𝚎𝚊𝚗𝚎𝚛]" | lolcat | pv -qL 75 && sleep 45
+echo -e " [𝚜𝚝𝚊𝚛𝚝𝚎𝚍 𝚟𝚒𝚛𝚝𝚞𝚊𝚕]" | lolcat | pv -qL 200 && sleep 45
+mv /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pakks
+echo -e " [𝚜𝚝𝚊𝚛𝚝𝚒𝚗𝚐 𝚕𝚘𝚐 𝚌𝚕𝚎𝚊𝚗𝚎𝚛]" | lolcat | pv -qL 75 && sleep 5
 i=1
 j=0
 while [ $i -lt 19 ]
@@ -216,7 +217,7 @@ do
 clear
 
 
-mv /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pakks
+
 
 
 
