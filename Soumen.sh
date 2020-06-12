@@ -269,7 +269,7 @@ exit 0
 clear
 sleep 1
 echo " "
-echo "𝙲𝙷𝙰𝚃𝚃𝙸𝙽𝙶 𝙾𝙵𝙵 𝙱𝚈 𝚂𝙾𝚄𝙼𝙴𝙽 , 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃...."
+echo "𝙲𝙷𝙰𝚃𝚃𝙸𝙽𝙶 𝙾𝙵𝙵 𝙱𝚈 𝚂𝙾𝚄𝙼𝙴𝙽 , 𝙿𝙻𝙴𝙰𝚂𝙴 𝚆𝙰𝙸𝚃...." | lolcat | pv -qL 200
 
 mv /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pakks /sdcard/Android/data/com.tencent.iglite/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
 
